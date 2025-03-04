@@ -4,21 +4,65 @@
     --slate-900: #1f314f;
     --slate-500: #68778D;
     --slate-300: #D5E1EF;
-    --space-500: margin-left: 50px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-500: 40px;
 }
 
 body {
     font-family: Outfit;
     background-color: white;
+    display: flex;
+    max-width: 1440px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-slate-300, #D5E1EF);
+    gap: var(--spacing-500);
+}
+.card {
+display: flex;
+padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
+flex-direction: column;
+align-items: center;
+gap: var(--spacing-300);
+border-radius: 20px;
+background: var(--color-white, #FFF);
+box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
 }
 
-txt-1 {
+img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.txt-1 {
     font-size: 22px;
     line-height: 120%;
     letter-spacing: 0px;
+    font-weight: 700;
+    color: var(--slate-900);
+    text-align: center;
+    margin: 0;
 }
-txt-2 {
+.txt-2 {
     font-size: 15px;
     line-height: 140%;
+    font-weight: 400;
     letter-spacing: 0.2px;
+    color: var(--slate-500);
+    text-align: center;
+    text-wrap: wrap;
+    margin: 0;
+
+}
+
+.txt-container{
+    max-width: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-200);
 }
