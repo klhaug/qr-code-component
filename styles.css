@@ -13,7 +13,6 @@ body {
     font-family: Outfit;
     background-color: white;
     display: flex;
-    max-width: 1440px;
     height: 100vh;
     flex-direction: column;
     justify-content: center;
