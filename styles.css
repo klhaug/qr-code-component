@@ -12,6 +12,10 @@
 body {
     font-family: Outfit;
     background-color: white;
+ 
+}
+
+main {
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -26,6 +30,7 @@ h1 {
 }
 .card {
 display: flex;
+max-width: 320px;
 padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
 flex-direction: column;
 align-items: center;
