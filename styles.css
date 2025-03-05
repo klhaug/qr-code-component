@@ -20,6 +20,10 @@ body {
     background: var(--color-slate-300, #D5E1EF);
     gap: var(--spacing-500);
 }
+
+h1 {
+    display: none;
+}
 .card {
 display: flex;
 padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
