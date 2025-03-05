@@ -45,6 +45,7 @@ img {
     color: var(--slate-900);
     text-align: center;
     margin: 0;
+    padding: 0 var(--spacing-200) 0 var(--spacing-200);
 }
 .txt-2 {
     font-size: 15px;
@@ -53,8 +54,8 @@ img {
     letter-spacing: 0.2px;
     color: var(--slate-500);
     text-align: center;
-    text-wrap: wrap;
     margin: 0;
+    padding: 0 var(--spacing-200) 0 var(--spacing-200);
 
 }
 
@@ -64,4 +65,10 @@ img {
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-200);
+    /* padding: 0 var(--spacing-200) 0 var(--spacing-200); */
+}
+
+.attribution {
+    margin-top: var(--spacing-300);
+    text-align: center;
 }
