@@ -7,3 +7,5 @@ Built with basic HTML and CSS.
 I got a refresher on CSS-variables, and learned how to work with professional figma-files. 
 
 It was fun!
+
+![](./screenshot.png)
